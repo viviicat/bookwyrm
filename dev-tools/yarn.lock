@@ -284,6 +284,14 @@
   "resolved" "https://registry.npmjs.org/css-functions-list/-/css-functions-list-3.0.0.tgz"
   "version" "3.0.0"
 
+"css-tree@^2.0.1":
+  "integrity" "sha512-b4IS9ZUMtGBiNjzYbcj9JhYbyei99R3ai2CSxlu8GQDnoPA/P+NU85hAm0eKDc/Zp660rpK6tFJQ2OSdacMHVg=="
+  "resolved" "https://registry.npmjs.org/css-tree/-/css-tree-2.0.4.tgz"
+  "version" "2.0.4"
+  dependencies:
+    "mdn-data" "2.0.23"
+    "source-map-js" "^1.0.1"
+
 "cssesc@^3.0.0":
   "integrity" "sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg=="
   "resolved" "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
@@ -831,6 +839,11 @@
   "resolved" "https://registry.npmjs.org/lodash.truncate/-/lodash.truncate-4.4.2.tgz"
   "version" "4.4.2"
 
+"lodash@^4.17.21":
+  "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+  "version" "4.17.21"
+
 "lru-cache@^6.0.0":
   "integrity" "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA=="
   "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-6.0.0.tgz"
@@ -852,6 +865,11 @@
   "integrity" "sha512-APMBEanjybaPzUrfqU0IMU5I0AswKMH7k8OTLs0vvV4KZpExkTkY87nR/zpbuTPj+gARop7aGUbl11pnDfW6xg=="
   "resolved" "https://registry.npmjs.org/mathml-tag-names/-/mathml-tag-names-2.1.3.tgz"
   "version" "2.1.3"
+
+"mdn-data@2.0.23":
+  "integrity" "sha512-IonVb7pfla2U4zW8rc7XGrtgq11BvYeCxWN8HS+KFBnLDE7XDK9AAMVhRuG6fj9BBsjc69Fqsp6WEActEdNTDQ=="
+  "resolved" "https://registry.npmjs.org/mdn-data/-/mdn-data-2.0.23.tgz"
+  "version" "2.0.23"
 
 "meow@^9.0.0":
   "integrity" "sha512-+obSblOQmRhcyBt62furQqRAQpNyWXo8BuQ5bN7dG8wmwQ+vwHKp/rCFD4CrTP8CsDQD1sjoZ94K417XEUk8IQ=="
@@ -1065,7 +1083,7 @@
   "resolved" "https://registry.npmjs.org/postcss-safe-parser/-/postcss-safe-parser-6.0.0.tgz"
   "version" "6.0.0"
 
-"postcss-selector-parser@^6.0.9":
+"postcss-selector-parser@^6.0.6", "postcss-selector-parser@^6.0.9":
   "integrity" "sha512-UO3SgnZOVTwu4kyLR22UQ1xZh086RyNZppb7lLAKBFK8a32ttG5i87Y/P3+2bRSjZNyJ1B7hfFNo273tKe9YxQ=="
   "resolved" "https://registry.npmjs.org/postcss-selector-parser/-/postcss-selector-parser-6.0.9.tgz"
   "version" "6.0.9"
@@ -1078,7 +1096,7 @@
   "resolved" "https://registry.npmjs.org/postcss-sorting/-/postcss-sorting-7.0.1.tgz"
   "version" "7.0.1"
 
-"postcss-value-parser@^4.2.0":
+"postcss-value-parser@^4.1.0", "postcss-value-parser@^4.2.0":
   "integrity" "sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ=="
   "resolved" "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz"
   "version" "4.2.0"
@@ -1235,7 +1253,7 @@
     "astral-regex" "^2.0.0"
     "is-fullwidth-code-point" "^3.0.0"
 
-"source-map-js@^1.0.2":
+"source-map-js@^1.0.1", "source-map-js@^1.0.2":
   "integrity" "sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw=="
   "resolved" "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   "version" "1.0.2"
@@ -1316,6 +1334,13 @@
   dependencies:
     "stylelint-config-recommended" "^7.0.0"
 
+"stylelint-csstree-validator@^2.0.0":
+  "integrity" "sha512-nAnG4CynM4P4POUCGVz/PnrByKcgdD2isKlmAccoxykkaH1IuEposiOJcUQlAp/kXD/T0ZRwlDbqMGgrHRbhog=="
+  "resolved" "https://registry.npmjs.org/stylelint-csstree-validator/-/stylelint-csstree-validator-2.0.0.tgz"
+  "version" "2.0.0"
+  dependencies:
+    "css-tree" "^2.0.1"
+
 "stylelint-order@^5.0.0":
   "integrity" "sha512-OWQ7pmicXufDw5BlRqzdz3fkGKJPgLyDwD1rFY3AIEfIH/LQY38Vu/85v8/up0I+VPiuGRwbc2Hg3zLAsJaiyw=="
   "resolved" "https://registry.npmjs.org/stylelint-order/-/stylelint-order-5.0.0.tgz"
@@ -1324,7 +1349,18 @@
     "postcss" "^8.3.11"
     "postcss-sorting" "^7.0.1"
 
-"stylelint@^14.0.0", "stylelint@^14.2.0", "stylelint@^14.4.0":
+"stylelint-scss@^4.1.0":
+  "integrity" "sha512-BNYTo7MMamhFOlcaAWp2dMpjg6hPyM/FFqfDIYzmYVLMmQJqc8lWRIiTqP4UX5bresj9Vo0dKC6odSh43VP2NA=="
+  "resolved" "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-4.1.0.tgz"
+  "version" "4.1.0"
+  dependencies:
+    "lodash" "^4.17.21"
+    "postcss-media-query-parser" "^0.2.3"
+    "postcss-resolve-nested-selector" "^0.1.1"
+    "postcss-selector-parser" "^6.0.6"
+    "postcss-value-parser" "^4.1.0"
+
+"stylelint@^14.0.0", "stylelint@^14.4.0", "stylelint@^14.5.0", "stylelint@>=7.0.0 <15.0.0":
   "integrity" "sha512-4dvQjrhAz2njLoE1OvUEZpryNWcmx2w5Lq5jlibxFv6b5W6O8/vob12M2ZzhX3Ndzs5f67F+BEYmhnQXOwfVYQ=="
   "resolved" "https://registry.npmjs.org/stylelint/-/stylelint-14.5.0.tgz"
   "version" "14.5.0"
