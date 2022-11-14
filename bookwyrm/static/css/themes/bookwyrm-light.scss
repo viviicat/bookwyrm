@@ -57,7 +57,6 @@ $invisible-overlay-background-color: rgba($scheme-invert, 0.66);
 $family-primary: $family-sans-serif;
 $family-secondary: $family-sans-serif;
 
-
 .has-text-muted {
     color: $grey-dark !important;
 }
@@ -68,4 +67,4 @@ $family-secondary: $family-sans-serif;
 
 @import "../bookwyrm";
 @import "../vendor/icons.css";
-@import "../vendor/shepherd.scss";
+@import "../vendor/shepherd";
